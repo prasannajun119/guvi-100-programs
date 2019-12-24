@@ -22,3 +22,15 @@ To print alphabets in while loop
     for alphy in range(65, 65+26):
     alphy = chr(alphy)
     print(alphy)
+
+
+
+
+To Print number of digits in a number
+
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+      n=n//10
+      count=count+1
+print("The total number of digits in the number are:", count)
