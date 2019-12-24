@@ -34,3 +34,17 @@ while(n>0):
       n=n//10
       count=count+1
 print("The total number of digits in the number are:", count)
+
+
+Sum Of N Natural Numbers
+n=int(input("Enter number:"))
+
+def printSum(n): 
+    sum = 0
+    while (n != 0): 
+        sum = sum + int(n % 10) 
+        n = int(n/10) 
+      
+    return sum
+
+print(printSum(n))
