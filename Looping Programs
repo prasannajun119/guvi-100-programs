@@ -48,3 +48,21 @@ def printSum(n):
     return sum
 
 print(printSum(n))
+
+
+ Product Of N Natural Numbers
+n=int(input("Enter number:"))
+
+def printproduct(n): 
+    sum = 0
+    while (n != 0): 
+        prod = prod * int(n % 10) 
+        n = int(n/10) 
+      
+    return prod
+
+print(printproduct(n))
+
+
+
+
